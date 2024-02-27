@@ -1244,3 +1244,42 @@ box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
   align-items: flex-end;
   justify-content: space-between;
 }
+
+
+
+
+
+/* type rating css */
+.grid-trial1-area {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 4px 8px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Pretyperatingclass Pretyperatingclass Pretyperatingclass Pretyperatingclass Pretyperatingclass"
+    "Typeratringcourse Typeratringcourse airbusa320 airbusa320 airbusa320"
+    "Typeratringcourse Typeratringcourse boeing737 boeing737 boeing737";
+}
+
+.Pretyperatingclass { 
+  grid-area: Pretyperatingclass; 
+  color: #012222;
+
+}
+
+.Typeratringcourse { 
+  grid-area: Typeratringcourse;
+  color: #012222;
+  align-self: center;
+}
+
+.airbusa320 { 
+  grid-area: airbusa320;
+  color: #012222;
+
+}
+
+.boeing737 { 
+  grid-area: boeing737; 
+  color: #012222;
+}
